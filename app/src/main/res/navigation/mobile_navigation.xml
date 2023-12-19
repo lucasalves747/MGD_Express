@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mgdexpress.ui.map.MapaFragment"
+        android:label="@string/map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.mgdexpress.ui.pedidosEmAndamento.PedidosEmAndamento"
+        android:label="@string/pedidosEmAndamento"
+        tools:layout="@layout/fragment_pedidos_em_andamento" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.mgdexpress.ui.pedidosDisponiveis.PedidosDisponiveisFragment"
+        android:label="@string/pedidosDisponiveis"
+        tools:layout="@layout/fragment_pedidos_disponiveis" />
+</navigation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icone_mapa"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/icone_lista_de_pedidos_andamento"
+            android:title="@string/pedidosEmAndamento" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/icone_lista_pedidos_disponiveis"
+            android:title="@string/pedidosDisponiveis"/>
+
+        <item
+            android:id="@+id/nav_solicitacaoGerente"
+            android:icon="@drawable/icone_gerente"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:title="@string/aceitarGerente"/>
+    </group>
+</menu>
